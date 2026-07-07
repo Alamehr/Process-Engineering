@@ -1,11 +1,11 @@
-# Advanced Process Engineering and Thermal Integration
+# Process Engineering - Coursework and Assignments
 
-This repository hosts process simulation models, thermodynamic integration scripts, and techno-economic frameworks developed during the graduate-level course **Process Engineering** at Sharif University of Technology.
+This repository contains my computational assignments, programming scripts, and engineering problems solved during the graduate-level **Process Engineering** course at Sharif University of Technology. 
 
-The curriculum focuses on the systematic optimization of industrial chemical processes, moving beyond empirical design to rigorous mathematical modeling. It emphasizes the implementation of Pinch Technology for high-fidelity heat exchanger network synthesis, multi-component reactive mass/energy balances, and the quantitative evaluation of industrial decarbonization pathways.
+The focus of these assignments is to transition from theoretical chemical and thermal concepts into structural mathematical models, resolving plant-wide synchronization, heat exchanger network synthesis, and advanced cycle simulations.
 
-## Core Frameworks Covered
+## Core Assignments and Implementations
 
-* **Process Integration and Pinch Analysis:** Algorithmic construction of Hot/Cold Composite Curves and Grand Composite Curves to evaluate process thermodynamic limits, establish energy targets, and optimize multi-utility placement.
-* **Closed-Loop Reactive System Balances:** Matrix-based atomic and molar formulation of complex combustion kinetics, alongside the thermodynamic optimization of purge-to-recycle ratios to mitigate inert accumulation.
-* **Techno-Economic and Advanced Cycle Modeling:** Capital and operational expenditure (CAPEX/OPEX) optimization, Net Present Value (NPV) calculation, and payback analysis for flare gas recovery systems, combined with efficiency modeling of supercritical $\text{CO}_2$ and Organic Rankine Cycles.
+* **Mass and Energy Balances in Reactive Systems:** Matrix-based atomic and molar balances for multi-component reactive systems. This includes solving combustion kinetics for industrial flare networks and optimizing purge-to-recycle ratios to prevent inert accumulation ($CH_4$).
+* **Pinch Technology and Network Synthesis:** Algorithmic solutions using the Problem Table Algorithm to locate process pinches and evaluate energy targets ($Q_{H\min}$, $Q_{C\min}$). It covers constructing Hot/Cold Composite Curves, Grand Composite Curves for multi-utility integration, and the mathematical design of Heat Exchanger Networks (HEN).
+* **Advanced Thermodynamic Cycles:** Energy and mass balance simulations for next-generation power and thermal systems. This includes efficiency and process configuration modeling for the supercritical $\text{CO}_2$ Allam Cycle, Organic Rankine Cycles (ORC) for waste heat recovery, and techno-economic evaluation frameworks for flare gas recovery (FGR).
